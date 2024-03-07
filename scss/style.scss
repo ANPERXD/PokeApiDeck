@@ -33,10 +33,47 @@ body {
         flex-direction: row;
         align-items: center;
 
-        .pantallaDeck {
+        #pantallaDeck,
+        #pantallaDeckList,
+        #pantallaDeckDesc {
+            overflow: hidden;
+            overflow-y: scroll;
             background-color: rgb(51, 47, 51);
-            width: 70%;
+            width: 133vh;
             height: 40rem;
+
+            #pantallaDeckList,
+            #pantallaDeckDesc {
+                display: none;
+            }
+            .divDescPokemons {
+                background-color: green;
+                width: 133vh;
+                height: 40rem;
+            }
+
+            #SectionPokemonsList {
+                background-color: red; 
+                width: 95%;
+                height: 36rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 2rem 2rem;
+            }
+
+            .divPokemonsList {
+                background-color: red;
+                width: 95%;
+                height: 36rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 2rem 2rem;
+                padding: auto;
+            }
         }
 
         .BtoIzq {
@@ -115,7 +152,7 @@ body {
             background-repeat: no-repeat;
             background-size: contain;
             width: 6rem;
-            height: rem;
+            height: 6rem;
         }
 
         .OnOff {
@@ -127,6 +164,11 @@ body {
             border-radius: 20%;
         }
     }
-
-
 }
+
+
+
+
+
+//overflow: hidden;
+//overflow-y: scroll;

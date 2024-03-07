@@ -33,10 +33,54 @@ body {
   flex-direction: row;
   align-items: center;
 }
-#PokeDeck #Section1 .pantallaDeck {
+#PokeDeck #Section1 #pantallaDeck,
+#PokeDeck #Section1 #pantallaDeckList,
+#PokeDeck #Section1 #pantallaDeckDesc {
+  overflow: hidden;
+  overflow-y: scroll;
   background-color: rgb(51, 47, 51);
-  width: 70%;
+  width: 133vh;
   height: 40rem;
+}
+#PokeDeck #Section1 #pantallaDeck #pantallaDeckList,
+#PokeDeck #Section1 #pantallaDeck #pantallaDeckDesc,
+#PokeDeck #Section1 #pantallaDeckList #pantallaDeckList,
+#PokeDeck #Section1 #pantallaDeckList #pantallaDeckDesc,
+#PokeDeck #Section1 #pantallaDeckDesc #pantallaDeckList,
+#PokeDeck #Section1 #pantallaDeckDesc #pantallaDeckDesc {
+  display: none;
+}
+#PokeDeck #Section1 #pantallaDeck .divDescPokemons,
+#PokeDeck #Section1 #pantallaDeckList .divDescPokemons,
+#PokeDeck #Section1 #pantallaDeckDesc .divDescPokemons {
+  background-color: green;
+  width: 133vh;
+  height: 40rem;
+}
+#PokeDeck #Section1 #pantallaDeck #SectionPokemonsList,
+#PokeDeck #Section1 #pantallaDeckList #SectionPokemonsList,
+#PokeDeck #Section1 #pantallaDeckDesc #SectionPokemonsList {
+  background-color: red;
+  width: 95%;
+  height: 36rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 2rem;
+}
+#PokeDeck #Section1 #pantallaDeck .divPokemonsList,
+#PokeDeck #Section1 #pantallaDeckList .divPokemonsList,
+#PokeDeck #Section1 #pantallaDeckDesc .divPokemonsList {
+  background-color: red;
+  width: 95%;
+  height: 36rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 2rem;
+  padding: auto;
 }
 #PokeDeck #Section1 .BtoIzq {
   background-color: rgb(51, 47, 51);
@@ -105,7 +149,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   width: 6rem;
-  height: rem;
+  height: 6rem;
 }
 #PokeDeck #Section2 .OnOff {
   width: 4rem;

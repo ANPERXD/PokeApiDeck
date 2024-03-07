@@ -1,0 +1,19 @@
+[{
+    "nombre": "pikachu",
+    "elemento": "electrico",
+    "id": 1,
+    "poder": "10",
+    "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+}, {
+    "nombre": "bulbazur",
+    "elemento": "agua",
+    "id": 2,
+    "poder": "5",
+    "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+}, {
+    "nombre": "charmander",
+    "elemento": "fuego",
+    "id": 3,
+    "poder": "15",
+    "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+}]

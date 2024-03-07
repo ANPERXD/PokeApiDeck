@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedeck</title>
+    <title>PokeApiDeck</title>
     <link rel="stylesheet" href="./scss/style.css">
 </head>
 
@@ -18,7 +18,10 @@
                 <button id="s">s</button>
             </div>
 
-            <section class="pantallaDeck"></section>
+            <section id="pantallaDeck">
+                <section id="pantallaDeckList"></section>
+                <section id="pantallaDeckDesc"></section>
+            </section>
 
             <div class="BtoDer">
                 <button id="x">X</button>
@@ -26,11 +29,14 @@
 
         </section>
         <section id="Section2">
-            <button class="OnOff" type="button">Off</button>
+            <button class="OnOff" id="off" type="button">Off</button>
             <div id="bokeballIMG"></div>
-            <button class="OnOff" type="button">On</button>
+            <button class="OnOff" id="on" type="button">On</button>
         </section>
     </main>
+
+
+    <script src="./js/Pokemones.js"></script>
 </body>
 
 </html>
